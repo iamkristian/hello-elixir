@@ -4,7 +4,7 @@ defmodule HelloElixir.MixProject do
   def project do
     [
       app: :hello_elixir,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
       description: description(), # This is added for the description
@@ -47,5 +47,4 @@ defmodule HelloElixir.MixProject do
       links: %{"Github" => "https://github.com/iamkristian/hello-elixir"}
     ]
   end
-
 end

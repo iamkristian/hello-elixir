@@ -9,8 +9,12 @@ defmodule HelloElixir.MixProject do
       start_permanent: Mix.env() == :prod,
       description: description(), # This is added for the description
       package: package(),         # Package info is added here
+      deps: deps(),
+
       source_url: "https://github.com/iamkristian/hello-elixir", # Github
-      deps: deps()
+      docs: [
+        source_ref: "master"
+      ] 
     ]
   end
 
